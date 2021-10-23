@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IMC</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="big-container">
@@ -18,19 +17,19 @@
             </div>
             <div class="input">
                 <label for="altura">Altura:</label>
-                <input type="text" id="altura">
+                <input type="number" id="altura">
             </div>
             <div class="input">
                 <label for="peso">Peso:</label>
-                <input type="text" id="peso">
+                <input type="number" id="peso">
             </div>
-            <button>Calcular</button>
+            <button id="mostrarResultado">Calcular</button>
         </div>
         <div class="result">
             <textarea name="resultadoDisplay" id="resultadoDisplay" ></textarea>
         </div>
     </div>
-
     <footer>Developed by - Guilherme Costa 2021</footer>
+    <script src="script.js"></script>
 </body>
 </html>
